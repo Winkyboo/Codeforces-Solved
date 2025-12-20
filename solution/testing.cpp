@@ -2,6 +2,8 @@
 #include <set>
 #include <algorithm>
 #include <vector>
+#include <string>
+#include <numeric>
 using namespace std;
 
 int main(int argc, char* argv[]){
@@ -13,8 +15,11 @@ int main(int argc, char* argv[]){
     input.insert(5);
     for (int x : input) cout << x << endl;
     return 0;
-    */
     vector<int> input = {3, 4, 5, 43, 9};
     sort(input.begin(), input.end());
     for (int x : input) cout << x << " ";
+    */
+    string s1 = "hai";
+    string s2 = "phrolova";
+    int count = plus<int>()(s1, s2);
 }
