@@ -18,7 +18,7 @@ void solve(){
     string input;
     getline(cin, input);
     stringstream ss(input);
-    string a,b,c;
-    ss >> a >> b >> c;
-    cout << a[0] << b[0] << c[0] << endl;
+    string words;
+    while (ss >> words) cout << words[0];
+    cout << endl;
 }
