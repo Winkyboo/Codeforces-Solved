@@ -19,7 +19,5 @@ int main(int argc, char* argv[]){
     sort(input.begin(), input.end());
     for (int x : input) cout << x << " ";
     */
-    string s1 = "hai";
-    string s2 = "phrolova";
-    int count = plus<int>()(s1, s2);
+    
 }
